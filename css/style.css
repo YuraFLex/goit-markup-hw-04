@@ -235,6 +235,15 @@ body{
     display: flex;
 }
 
+.priveleg-btn {
+    background-color: var(--btn-bg-color);
+    margin-bottom: 30px;
+}
+
+.rpiveleg-logo {
+    padding: 25px 100px;
+}
+
 .privileg-item {
     width: 270px;
     margin: 0 auto;
@@ -311,7 +320,25 @@ body{
     color: var(--second-text-color);
     margin-bottom: 30px;
 }
+.client-list {
+    display: flex;
+    margin-left: 10px;
+}
+.client {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
 
+
+.client:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.client:hover {
+    border: 1px solid var(--acent-color);
+}
 /* Footer */
 
 .footer {
