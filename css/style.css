@@ -417,11 +417,13 @@ body {
   height: 60px;
 }
 
-.customer-link:hover {
+.customer-link:hover,
+.customer-link:focus {
   fill: var(--acent-color);
 }
 
-.customer:hover {
+.customer:hover,
+.customer:focus {
   border-color: var(--acent-color);
 }
 
@@ -455,11 +457,6 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-item:hover,
-.footer-item:focus {
-  color: var(--acent-color);
-}
-
 .footer-address {
   margin-bottom: 9px;
 }
@@ -469,6 +466,15 @@ body {
   line-height: 1.7;
   color: var(--white-text-color);
   display: inline-block;
+}
+
+.footer-link {
+  line-height: 1.71;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--acent-color);
 }
 
 .footer-soc-title {
@@ -494,9 +500,6 @@ body {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-social-network:hover {
-  background-color: var(--acent-color);
-}
 
 .footer-social-network:not(:first-child) {
   margin-left: 10px;
@@ -511,6 +514,11 @@ body {
   width: 20px;
   height: 20px;
   fill: var(--white-text-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--acent-color);
 }
 
 /* -------------------- Портфолио -------------------- */
