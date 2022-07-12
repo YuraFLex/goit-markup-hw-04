@@ -7,6 +7,7 @@
   --border-header-color: #ececec;
   --hero-bg: #2f303a;
   --btn-bg-color: #f5f4fa;
+  --second-section-color: #f5f4fa;
 }
 
 html {
@@ -256,7 +257,7 @@ body {
   height: 120px;
   justify-content: center;
   align-items: center;
-  background-color: var(--btn-bg-color);
+  background-color: var(--second-section-color);
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -299,7 +300,7 @@ body {
 /* Command */
 
 .command-bg {
-  background-color: var(--btn-bg-color);
+  background-color: var(--second-section-color);
   margin-top: 0;
 }
 
