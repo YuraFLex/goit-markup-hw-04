@@ -45,7 +45,7 @@ body {
   background-color: var(--prinmary-bg-color);
 }
 
-/* Утилиты */
+/* -------------------- Утилиты -------------------- */
 
 .container {
   margin-left: auto;
@@ -63,7 +63,7 @@ body {
 .no-pb {
   padding-bottom: 0;
 }
-/* Header */
+/* -------------------- Header -------------------- */
 .header {
   border-bottom: 1px solid var(--border-header-color);
 }
@@ -73,7 +73,7 @@ body {
   margin: 0 auto;
 }
 
-/* Logo Company */
+/* -------------------- Logo Company -------------------- */
 .web {
   font-family: "Raleway";
   font-size: 26px;
@@ -99,7 +99,7 @@ body {
   margin: 0;
 }
 
-/* Navigation */
+/* -------------------- Navigation -------------------- */
 
 .nav {
   display: flex;
@@ -135,7 +135,7 @@ body {
 .nav .active-page {
   color: var(--acent-color);
 }
-/* Contact */
+/* -------------------- Contact -------------------- */
 
 .contact-list {
   display: flex;
@@ -171,7 +171,7 @@ body {
   fill: var(--acent-color);
 }
 
-/* Hero */
+/* -------------------- Hero -------------------- */
 
 .hero {
   height: 600px;
@@ -227,7 +227,7 @@ body {
   background: var(--prinmary-bg-color);
   color: var(--acent-color);
 }
-/* Privileg */
+/* -------------------- Privileg -------------------- */
 
 .visually-hidden {
   position: absolute;
@@ -278,7 +278,7 @@ body {
   color: var(--second-text-color);
 }
 
-/* Work */
+/* -------------------- Work -------------------- */
 
 .section-title {
   font-size: 36px;
@@ -297,7 +297,7 @@ body {
   padding: 0 15px;
 }
 
-/* Command */
+/* -------------------- Command --------------------*/
 
 .command-bg {
   background-color: var(--second-section-bg-color);
@@ -389,7 +389,7 @@ body {
   height: 20px;
 }
 
-/* Постоянные клинеты */
+/* -------------------- Постоянные клинеты -------------------- */
 
 .our-customer {
   display: flex;
@@ -425,7 +425,7 @@ body {
   border-color: var(--acent-color);
 }
 
-/* Footer */
+/* -------------------- Footer -------------------- */
 
 .footer {
   width: 100%;
@@ -513,7 +513,7 @@ body {
   fill: var(--white-text-color);
 }
 
-/* Портфолио */
+/* -------------------- Портфолио -------------------- */
 
 .portfoliobtn-list {
   margin-right: 10px;
@@ -547,7 +547,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Portfolio */
+/* -------------------- Portfolio -------------------- */
 
 .menu-list {
   display: flex;
@@ -599,6 +599,3 @@ body {
   line-height: 1.8;
   color: var(--second-text-color);
 }
-/* .item-border:hover, .item-border:focus {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-} */
